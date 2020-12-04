@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{
+    background: linear-gradient(whitesmoke,white);
+    background-repeat: no-repeat;
+    font-family: Roboto;
+}
+li a{
+    color: white !important;
+    
+}
+nav.navbar {
+    background-color:rgb(0,102,51) !important;
+}
+

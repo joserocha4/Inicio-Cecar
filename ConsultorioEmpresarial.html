@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon"   href="img/cecar.ico"/> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <title>Consultorio Empresarial</title>
+</head>
+<body>
+    <!-- ---------------------------------Menú de navegavión------------------------------------------- -->
+    <header>
+        <div style="background-color:rgb(0,102,51);"class="col-md-12" >
+                
+                <nav class="navbar navbar-expand-lg" style="background-color:rgb(0,102,51);" >
+                
+                    <button style="background-color:rgb(204,204,0); " class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul  class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html" style="color:white;">INICIO<span class="sr-only">(current)</span></a>
+                         </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="programa.html" style="color:white;">PROGRAMA<span class="sr-only">(current)</span></a>
+                         </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="docentes.html" style="color:white;">DOCENTES<span class="sr-only">(current)</span></a>
+                         </li>
+                         <li class="nav-item active">
+                             <a class="nav-link" href="estudiantes.html" style="color:white;">ESTUDIANTES<span class="sr-only">(current)</span></a>
+                         </li>
+                          <li class="nav-item active">
+                             <a class="nav-link" href="egreprimero.html" style="color:white;">EGRESADOS<span class="sr-only">(current)</span></a>
+                         </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="ProyeccionSocial.html" style="color:white;">PROYECCION SOCIAL<span class="sr-only">(current)</span></a>
+                         </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="contactos.html" style="color:white;">CONTACTOS<span class="sr-only">(current)</span></a>
+                         </li>
+                     </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- --------------------------------Contenido-------------------------------------------------- -->
+    <div class="bannerr">
+        <img src="img/Banner1.png" class="imgg">
+    </div>   
+    <br><br>
+<div class="container">
+    <h3 class="text-uppercase font-weight-bold ">CONSULTORIO EMPRESARIAL</h3>
+    <hr style="width: 100%; background-color: gray; margin: 0%;padding: 0%;">
+    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:125px; height: 2px;">
+  </div>
+  <div class="container">
+    <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="img/ConsultorioEmpresarial.jpg" alt="Card image cap">
+        </div>
+        <div class="card">
+          <div class="card-body" style="background-color: rgb(0,102,51);">
+              <div class="container">
+                  <div class="container">
+            <h5 class="card-title" style="color: white;">PRESENTACIÓN</h5>
+            <br>
+            <p class="card-text" style="color: black;">El consultorio empresarial es una instancia adscrito a los programas de Facultad de ciencias Económicas y administrativas FACEA de CECAR que se crea para contribuir al sector empresarial contribuyendo al desarrollo a través de la articulación en el ámbito académico e investigativo en coherencia con las necesidades del entorno.</p>
+        </div>
+        </div>
+        <br>
+          </div>
+        </div>
+      </div>
+  </div>
+<br>
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">Opciones:</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide1()" id="de">Direccionamiento estratégico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide2()" id="pv">Políticas y Valores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide3()" id="s">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide4()" id="ae">Alianzas Estratégicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide5()" id="ea">Estructura Administrativa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide6()" id="isp">Investigación / Sistematización de Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide7()" id="is">Innovación Social</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="ShowHide8()" id="c">Contacto</a>
+          </li>
+        </ul>
+    </nav>
+  </div>
+  <br>
+  <div class="container">
+      <div class="DE">
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/mision.jpg" class="card-img-top" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">MISIÓN</h5>
+                  <p>La Misión del consultorio empresarial es contribuir a la mejora de la competitividad del sector empresarial de la región a través de programas de asesoría y capacitación a las MIPYMES del departamento.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">VISIÓN</h5>
+                  <p>La Visión Ser reconocidos como el ejecutor de programas y convenios que mejoren e incrementen la creación de empresas con alto potencial de crecimiento, el fortalecimiento e internacionalización de las MIPYMES del departamento.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <img src="img/vision.jpg" class="card-img-top" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="PV">
+          <h5>Valores</h5>
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Valores Corporativos</h5>
+                  <ul>
+                      <li>Excelencia en la gestión:Garantizando la mejora continua en los procesos de capacitación y asesorías.</li>
+                      <li>Orientación a resultados:Asegurando que las asesorías sean las adecuadas para cada necesidad de la empresa solicitante.</li>
+                      <li>Colaboración:Establecimiento de canales eficaces de comunicación y participación con los clientes para conocer sus necesidades y expectativas, que nos faciliten potenciar relaciones estables y duraderas</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Valores Personales</h5>
+                  <ul>
+                      <li>Integración profesional y personal:Reforzando el compromiso y el sentido de pertenencia, facilitando la integración al sector empresarial.</li>
+                      <li>Trabajo en equipo:Fomento del trabajo en equipo y compartir la información necesaria, vital para mejorar el nivel de calidad de nuestras actividades y productos.</li>
+                      <li>Proactividad y participación:Valorando la iniciativa como factor clave del desarrollo.</li>
+                      <li>Responsabilidad:En el manejo de la información</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+                <br>
+                <h5>Políticas</h5>
+                <div class="card">
+                  <div class="card-body">
+                    <ul>
+                        <li>Political de calidad de servicios</li>
+                        <li>Satisfacer las necesidades de la región</li>
+                        <li>Política de confidencialidad de información</li>
+                        <li>Etica profesional.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="S">
+          <h5>Servicios</h5>
+          <p>Se desarrolla un programa de asesorías para formalizar en temas relacionados con la organización y administración, contabilidad y finanzas y mercadeo y ventas a 60 comerciantes, micro comerciantes y pequeños empresarios pertenecientes a sectores económicos específicos de la ciudad de Sincelejo. Estas asesorías se realizan los días martes y jueves en el horario de 9:00 a.m., a 12:00 m.</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                    <ol>
+                        <li>Empresariales, Organizacionales, Administrativas y Económicas</li><br>
+                        <li>Contables y tributarias Financieras y Valoración de empresa.</li><br>
+                        <li>Dirección y Organizaciones de empresas Turísticas y productos turísticos.</li>
+                    </ol>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                <ol>
+                    <li value="4">Laborales, Contratos, Liquidaciones y aportes de nomina.</li> <br>
+                    <li>Económicas, Análisis de políticas sectoriales y gremiales.</li>
+                </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="AE">
+          <h4>Alianzas Estratégicas e interinstitucionales</h4>
+          <br>
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                    <ol>
+                        <li>Fenalco – capitulo Sucre</li><br>
+                        <li>Comisión Regional de Competitividad y Desarrollo de sucre</li>
+                    </ol>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                <ol>
+                    <li value="3">Sector empresarial y comercial de Sucre.</li> <br>
+                    <li>Mercado Publico de Sincelejo</li>
+                </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="EA">
+          <center>
+          <img src="img/mapa.jpg" alt="" style="width: 60%;">
+        </center>
+      </div>
+      <div class="ISP">
+          <h4>Investigación / Sistematización de Proyectos</h4>
+          <h5>Acciones</h5>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                    <ul>
+                        <li>Registro fotográfico de visitas del docente con las comunidades empresariales</li> <br>
+                        <li>Registro de visitas de estudiantes ante las comunidades empresariales</li> <br>
+                        <li>Orientación en el desarrollo de la estructura investigativa.</li> <br>
+                        <li>Organización de toda la información de encuestas y trabajos de campos realizados.</li> <br>
+                        <li>Compilado de las 2 acciones como proyectos independientes soportados con videos, imágenes, encuestas y tabulación del proyecto.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                    <ul>
+                        <li>Alimentación de nuestra plataforma ante las acciones que se desarrollaran y se desarrollaron.</li> <br>
+                        <li>Logística de entrega de actividades ante la comunidad.</li><br>
+                        <li>Diseño de poster alusivos a las diversas acciones realizadas.</li> <br>
+                        <li>Formulación de proyecto de investigación de cada acción semestral /anual.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="IS">
+          <h5>Innovación Social</h5>
+          <p>Promover el desarrollo de la CT&I, incentivando el uso masivo de los estímulos tributarios por los contribuyentes, tanto de los especiales de CT&I, como de los demás beneficios, para lograr un efecto práctico en la sociedad y el sector productivo.</p>
+          <p>Socialización de los Estímulo directo con recursos del presupuesto y de los particulares que apoyan el desarrollo de proyectos y actividades de Ciencia, Tecnología y proyectos de Innovación Tecnológica y el Otorgamiento de incentivos tributarios a empresas que realizan proyectos y actividades de Ciencia, Tecnológica y proyectos de Innovación Tecnológica.</p>
+          <h6>Acciones</h6>
+          <p>Charlas informativas al sector empresarial sobre los siete incentivos tributarios: </p>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                    <ul>
+                        <li>Deducciones por inversiones.</li> <br>
+                        <li>Deducciones por donaciones.</li> <br>
+                        <li>Exención del IVA por importaciones.</li> <br>
+                        <li>Renta exenta por explotación de innovaciones en software.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                    <li>Renta exenta por productos medicinales.</li> <br>
+                    <li>Renta exenta de proyectos</li> <br>
+                    <li>Renta exenta para los investigadores</li>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="C">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1xLPWBXjd94leLkcAh-XU_0GPr1E" width="640" height="480"></iframe>
+      </div>
+  </div>
+    <!-- -------------------------------Pie de página------------------------------------------------- -->
+      
+    <footer class="page-footer bg-dark">
+        <div class="container text-center text-md-left mt-3"></div>
+         <div class="row">
+             <div class="col-md-3 mx-auto mb-4  text-center" >
+                 <h6 class="text-uppercase font-weight-bold">Mas información</h6>
+                 <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:125px; height: 2px;">
+                 <p class="mt-2">Trabajo realizado por estudiantes del tercer semestre de Ingenieria de Sistemas </p>
+             </div>
+             <div class="col-md-3 mx-auto mb-4 text-center">
+                <h6 class="text-uppercase font-weight-bold  "> Nuestras Redes</h6>
+                <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:125px; height: 2px;">
+                <ul class="list-unstyled">
+                    <li class="my-2"><a href="https://www.facebook.com/unicecar"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li class="my-2"><i class="fab fa-instagram"></i><a href="https://www.instagram.com/unicecar/"> instagram</a></li>
+                    <li class="my-2"><a href="https://twitter.com/unicecar"><i class="fab fa-twitter-square"></i> twitter</a></li>
+                    <li class="my-2"><a href="https://www.youtube.com/channel/UCd3dDVx8Os9dKgxF9Fgmelw"><i class="fab fa-youtube"></i>Youtube</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mx-auto mb-4 text-center">
+                <h6 class="text-uppercase font-weight-bold "> Ubicanos</h6>
+                <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width:125px; height: 2px;">
+                <ul class="list-unstyled">
+                    <li class="my-2"><i class="fas fa-home"></i>   Carretera Troncal de Occidente  <br>   Km. 1, Vía Corozal - Sincelejo, Colombia</li>
+                    <li class="my-2"><i class="fas fa-envelope"></i>  juan.muskus@cecar.edu.co</li>
+                    <li class="my-2"><i class="fas fa-phone"></i> 3145248816 </li>
+                </ul>
+        
+            </div>
+         </div>
+        
+         <footer class="footer-copyright text-center py-3">
+            <P>© copyright 15/11/2020 Todos Los Derechos Reservados | Cecar</P>
+         </footer>
+           
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/javascript2.js"></script>
+</body>
+</html>

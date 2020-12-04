@@ -1,0 +1,149 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "node_modules/bootstrap/scss/bootstrap";
+html{
+    background: linear-gradient(whitesmoke,white);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+}
+#menu{
+    background-color:rgb(0,102,51) !important;
+}
+#menu li a{
+    color: white !important;
+}
+.NAVBAR{
+    background-color:rgb(0,102,51) !important;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.NAVBAR li{
+    display: inline-block;
+    margin: 15px;
+    
+}
+.NAVBAR li a{
+    color: rgb(248, 248, 248);
+}
+#tupac{
+    text-align: center;
+}
+#A1{
+    text-align: center;
+}
+#Calculadora{
+    background: linear-gradient(whitesmoke,white);
+    background-repeat: no-repeat;
+}
+#Calculadora button{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    
+}
+.R1{
+    text-align: center;
+}
+.CalcBut{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.Event{
+    box-sizing: border-box;
+}
+
+#Home{
+    background: linear-gradient(whitesmoke,white);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.linea{
+    border-top: 5px solid rgb(0,102,51);
+}
+.columnas
+{
+    display: flex;
+    width: 25%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+
+}
+.columnas img
+{
+    width: 98%;
+    position: relative;
+    height: 400px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px  rgb(0,102,51);
+    opacity: 0.8;
+    cursor:pointer;
+    object-fit: cover;
+}
+.columnas img:hover
+{
+    opacity:1;
+
+}
+.row:after
+{
+    content:"";
+    display: table;
+    clear:both;
+
+}
+.Cont {
+    
+    position: center;
+    display: none;
+}
+#TextImg {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+#Rules{
+    background: linear-gradient(whitesmoke,white);
+    background-repeat: no-repeat;
+}
+#Rules img{
+    width: 40px;
+    height: 50px;
+}
+#Rules h2{
+    text-align: center;
+}
+
+#Rules a{
+    display: block;
+    margin: auto;
+}
+#notes {
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+}
+#porcentaje {
+   display: inline-flex;
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+}
+#resultado {
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+}

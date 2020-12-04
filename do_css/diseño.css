@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{
+    background: linear-gradient(whitesmoke,white);
+    background-repeat: no-repeat;
+    font-family: Roboto;
+}
+#menu{
+    background-color:rgb(0,102,51) !important;
+}
+#fo li a{
+    color: white !important;
+}
+
+
+#inves{
+    border: 3px solid rgb(8, 8, 36);
+    transition-property: all;
+    transition-duration: 1s;
+}
+#inves img{
+    width: 250px;
+    height: 300px;
+}
+#inves:hover{
+    transform: translateY(-10%);  
+}
+
+#in{
+    border: 3px solid rgb(8, 8, 36);
+    transition-property: all;
+    transition-duration: 1s;
+}
+#in img{
+    width: 250px;
+    height: 300px;
+}
+#in:hover{
+    transform: translateY(-10%);  
+}
+
+#planta{
+    border: 3px solid rgb(8, 8, 36);
+    transition-property: all;
+    transition-duration: 1s;
+}
+#planta img{
+    width: 250px;
+    height: 300px;
+}
+#planta:hover{
+    transform: translateY(-10%);
+}
+
+#catedra{
+    border: 3px solid rgb(8, 8, 36);
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+#catedra img{
+    width: 250px;
+    height: 300px;
+    
+}
+#catedra:hover{
+
+    transform: translateY(-10%);
+  
+}
+p{
+    text-align: justify;
+}

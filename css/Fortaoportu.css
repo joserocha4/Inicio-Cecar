@@ -1,0 +1,76 @@
+h1{
+    display: block;
+    color:white;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+h1{
+    background: rgb(255, 153, 0);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 1px 3px 1px rgb(255, 255, 255);
+}
+h2{
+    background: rgb(255, 153, 0);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 1px 3px 1px rgb(255, 255, 255);
+    text-align: center;
+}
+#NMV{
+    text-align: center;
+    background-color: rgb(0, 102, 51);
+    color: white;
+}
+.Textoo{
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 90%;
+    border-radius: 10px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 1px 2px 1px rgb(0, 0, 0);
+}
+.Parra{
+    text-align: justify;
+    font-family: "Roboto";
+    padding: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-top-color:rgb(0, 102, 51);
+    border-right-color:rgb(4, 88, 9);
+    border-bottom-color: rgb(255, 204, 0);
+    border-left-color: rgb(255, 153, 0);
+}
+.ImgP{
+    margin-bottom: 25px;
+}
+#Imagen{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+}
+#Imagen2{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 20%;
+}
+#ImagenF{
+    display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+#Forta{
+    background: rgb(3, 112, 12);
+}
+#Opor{
+    background: rgb(255, 204, 0);
+}
+

@@ -1,0 +1,35 @@
+
+
+#NMV{
+    text-align: center;
+    background-color: rgb(0, 102, 51);
+    color: white;
+}
+.Textoo{
+    padding: 30px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.Parra{
+    text-align: justify;
+    font-family: "Roboto";
+}
+.ImgP{
+    margin-bottom: 25px;
+}
+#Imagen{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+#Imagen2{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 20%;
+}
